@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form {
+        width: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 5px 5px gra;
+      }
+
+      .form-control {
+        width: 95%;
+      }
+      .form-control:focus {
+        background-color: yellow;
+      }
+      .btn {
+        width: 100px;
+        height: 40px;
+        background-color: orangered;
+        color: white;
+        box-shadow: inset 0 0 10px lightgreen;
+      }
+      .btn:hover {
+        background-color: white;
+        color: orangered;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">FORM LIỆN HỆ</h1>
+    <form class="form" action="" method="post">
+      Họ và Tên : <br />
+      <input class="form-control" type="text" name="" id="" /> <br />
+      Giới tính :
+      <label for="">
+        <input type="radio" name="gender" id="" /> Nam
+        <input type="radio" name="gender" id="" /> Nữ
+      </label>
+      <br />
+      Quốc Tịch : <br />
+      <select name="list" id="list">
+        <option value="United States">United States</option>
+        <option value="United States">Việt Nam</option>
+        <option value="United States">TQ</option>
+        <option value="United States">Lào</option>
+      </select>
+      <br />
+
+      Vấn đề cần giải quyết <br />
+      <label for="">
+        <input type="checkbox" name="" id="" /> hỗ trợ sinh viên
+      </label>
+
+      <label for="">
+        <input type="checkbox" name="" id="" /> Đăng ký dịch vụ
+      </label>
+
+      <label for=""> <input type="checkbox" name="" id="" /> Khác </label>
+      <br />
+
+      Ghi chú : <br />
+      <textarea name="" id="" cols="50" rows="10"></textarea> <br />
+      <hr />
+      <input class="btn" type="submit" value="Gửi" />
+      <input class="btn" type="reset" value="Hoàn tác" />
+    </form>
+  </body>
+</html>
